@@ -1774,7 +1774,7 @@
 #define MAXNAMELEN                      256     /* max length of hostname or name for auth */
 #endif
 #ifndef MAXSECRETLEN
-#define MAXSECRETLEN                    256     /* max length of password or secret */
+#define MAXSECRETLEN                    512     /* max length of password or secret */
 #endif
 
 #endif /* PPP_SUPPORT */
